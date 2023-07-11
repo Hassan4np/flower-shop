@@ -55,16 +55,17 @@
  
  .section2 {
      height: 500px;
-     width: 1920px;
+     width: 100%;
      margin-top: 10px;
      display: flex;
      margin: 0px auto;
-     background: #FFF;
+     border-radius: 8px;
+     background: rgba(229, 84, 115, 0.05);
  }
  
  .contant2 {
      margin-top: 156px;
-     margin-left: 100px;
+     margin-left: 150px;
      text-align: center;
  }
  
@@ -97,7 +98,7 @@
  
  .img2 {
      text-align: center;
-     margin-left: 200px;
+     margin-left: 250px;
      margin-top: 50px;
      width: 300px;
      height: 350px;
@@ -132,11 +133,13 @@
      margin: 0px auto;
      height: 449px;
      flex-shrink: 0;
-     background-image: url(img/Rectangle\ 9.png);
+     background-image: url(./img/Rectangle\ 9.png);
      display: flex;
      justify-content: center;
      align-items: center;
      margin-bottom: 100px;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
  
  .containt4 {
@@ -228,4 +231,48 @@
  
  .sada {
      color: white;
+ }
+ 
+ .section6 {
+     background: #FFF;
+     width: 80%;
+     margin: 0px auto;
+ }
+ 
+ .contant6 {
+     display: flex;
+     text-align: center;
+     margin: 0 auto;
+ }
+ 
+ .section6 .div1 img {
+     width: 280px;
+     height: 300px;
+     flex-shrink: 0;
+     margin-left: 20px;
+ }
+ 
+ .contant6 {
+     text-align: center;
+     margin-left: 80px;
+ }
+ /* .div2 {
+     display: flex;
+     justify-content: center;
+ } */
+ 
+ .section6 .p1 {
+     color: #272727;
+     text-align: center;
+     font-family: Lato;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 30px;
+     text-decoration-line: underline;
+ }
+ 
+ .productimg {
+     border: 0px;
+     border-radius: 10px;
  }
